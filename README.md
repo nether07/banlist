@@ -7,8 +7,11 @@ The list is stored in a single file: banned_ips.txt.
 
 banned_ips.txt — one IP address per line.
 Example:
+
 203.0.113.45
+
 198.51.100.22
+
 2001:db8::1
 
 📌 Format & Rules
@@ -35,7 +38,8 @@ Deduplication and cleanup
 
 Consumers can fetch the latest banlist directly from the raw file URL:
 
-https://raw.githubusercontent.com/nether07/banlist/main/banned_ips.txt
+[https://raw.githubusercontent.com/nether07/banlist/main/banned_ips.txt
+](https://raw.githubusercontent.com/nether07/banlist/refs/heads/main/banned_ips.txt)
 
 It is recommended to cache the file locally (e.g., 5–15 minutes) instead of hitting GitHub on every request.
 
